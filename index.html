@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+      <link rel="stylesheet" href="style.css">
+      
+</head>
+<body class="overflow-hidden">
+  <div class="cont flex flex-col items-center justify-center ">
+
+    <h1 class="bg-[#191923] text-[#fff] w-[100vw] text-center py-2 text-2xl">Rock-Paper-Scissors</h1>
+    <div class="w-full flex items-center justify-center gap-9 my-6">
+    <div class="choise"id="rock"><img src="https://rock-paper-scissors-lilac-alpha.vercel.app/static/media/rock.png" alt="rock"></div>
+    <div class="choise" id="paper"><img src="https://rock-paper-scissors-lilac-alpha.vercel.app/static/media/paper.png" alt="papaer"></div>
+    <div class="choise" id="scissors"><img src="https://i.pinimg.com/474x/67/eb/fd/67ebfd32e898b4ec3ae4e59ae33832c8.jpg" alt="scissors"></div>
+    </div>
+
+    <div class="score flex items-center justify-center gap-3">
+    <div>
+      <p class="userScore flex items-center justify-center">0</p>
+      <p>You</p>
+    </div>
+    <div>
+      <p class="comScore flex items-center justify-center">0</p>
+      <p>Computer</p>
+    </div>
+    </div>
+
+    <button class="btn px-4 py-1 bg-black text-white rounded-full my-2 hover:bg-white hover:text-black border border-black">Play</button>
+    <button class="reset px-4 py-1 bg-black text-white rounded-full my-2 hover:bg-white hover:text-black border border-black">reset</button>
+    <button class="btn1"></button>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
